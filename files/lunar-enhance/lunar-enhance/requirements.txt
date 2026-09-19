@@ -1,0 +1,9 @@
+# Runtime. Pinned to major versions that are known to work together.
+Flask>=3.0,<4.0
+numpy>=1.24
+Pillow>=10.0
+opencv-python-headless>=4.8
+
+# Conversion only, and only if you want real Zero-DCE weights.
+# Install separately; the server never imports it.
+#   torch>=2.0

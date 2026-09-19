@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+models/*.npz
+samples/*.png
+.pytest_cache/
+.DS_Store
